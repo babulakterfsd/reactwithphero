@@ -6,7 +6,7 @@ function App() {
   const devArray = [
     {
      name: 'Robiul Awal',
-     age: 29,
+     age: 26,
      devType: 'full stack developer',
      salary: '$300k',
      isSenior: false
@@ -20,7 +20,7 @@ function App() {
     },
     {
       name: 'Babul Akter',
-      age: 29,
+      age: 26,
       devType: 'front end developer',
       salary: '$100k',
       isSenior: false
