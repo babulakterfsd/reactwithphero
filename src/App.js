@@ -50,7 +50,7 @@ function Loadusers(props) {
      <div className="mt-5 py-5 w-50 mx-auto border border-primary border-3">
        <h2 className="text-center">Load users from externeal data</h2>
        <hr />
-       {users.map(user => GenerateUsers(user))}
+       {users.map(user => <GenerateUsers name={user.name} id={user.id}></GenerateUsers>)}
      </div>
   )
 }
