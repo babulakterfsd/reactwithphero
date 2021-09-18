@@ -36,13 +36,15 @@ function App() {
 
 function Devs(props) {
   const {name, age, devType, salary, isSenior} = props
+  let senior = isSenior;
+   senior = senior ? `A senior developer` : `A junior developer`
   return (
     <div className="devContainer text-center border border-warning rounded-2 p-2 w-50 mx-auto mb-2">
       <h2> name: {name} </h2>
       <h3> age: {age}</h3>
       <h4>type: {devType}</h4>
       <h5>salary: {salary}</h5>
-      <h6>isSenior: {isSenior}</h6>
+      <h6>isSenior: {senior}</h6>
     </div>
   )
 }
