@@ -1,3 +1,20 @@
-.customStyle {
-    color: indianred;
+.devContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 20px;
+}
+.blog {
+  color: blueviolet;
+  font-size: 18px;
+  border: 1px solid indianred;
+  padding: 5px;
+}
+.todoContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 20px;
+}
+.singleTodoContainer {
+  padding: 10px;
+  border-bottom: 1px solid indianred;
 }
